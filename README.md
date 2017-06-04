@@ -4,15 +4,10 @@
 使用方法如下
 =======
 
-> medemo
-
-## Build Setup
-
-``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8081
+# use node server and open Browser localhost:8081 before do this command
 node nodeserver.js
 
 # build for production with minification
