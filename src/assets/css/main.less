@@ -1,0 +1,40 @@
+/*可以写一些初始化的东西*/
+@import './variables.less';
+@import '../font/iconfont.css';//常用字体图标
+@media screen and (min-width: 400px) {
+    html{font-size:17px;}
+}
+@media screen and (min-width:371px) and (max-width: 399px) {
+    html{font-size:15px;}
+}
+@media screen and (min-width:350px) and (max-width: 370px) {
+    html{font-size:14px;}
+}
+@media screen and (max-width: 349px) {
+    html{font-size:12px;}
+}   
+*{box-sizing: border-box;margin:0;padding:0}
+body{font-family:"宋体","Arial Narrow",HELVETICA;background:@b0;-webkit-text-size-adjust:100%;} 
+a{color:#2d374b;text-decoration:none} 
+a:hover{color:#cd0200;text-decoration:none} 
+em{font-style:normal} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
+
+/*路由动画*/
+//.fade-enter,.fade-leave-active{
+//  transform: translateX(-100%);
+//  opacity:0;
+//}
+//.fade-enter,.fade-leave-active{
+//  transition: all 0.2s ease;
+//}
+//.fade1-enter,.fade1-leave-active{
+//  transform: translateX(100%);
+//  opacity:0;
+//}
+//.fade1-enter,.fade1-leave-active{
+//  transition: all 0.2s ease;
+//}
